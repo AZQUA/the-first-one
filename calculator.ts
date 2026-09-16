@@ -1,14 +1,8 @@
-// calculator.ts
-export function add(a: any, b: any): number {
-	if (typeof a !== 'number' || typeof b !== 'number') {
-		throw new TypeError("Arguments must be numbers");
-	}
+//calculator.ts
+export function add(a: number, b: number): number {
 	return a + b;
 }
 
-export function subtract(a: any, b: any): number {
-	if (typeof a !== 'number' || typeof b !== 'number') {
-		throw new TypeError("Arguments must be numbers");
-	}
+export function subtract(a: number, b: number): number {
 	return a - b;
 }
